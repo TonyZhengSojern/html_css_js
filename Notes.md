@@ -8,4 +8,4 @@ To quit browser sync, press ctrl + c in the terminal.
 
 * Check status: `git status`
 * Mark a file as to be commit: `git add FILENAME`. `git add .` to mark everything as to commit.
-* 
+* Commit: `git commit -m "My First Page."`. `-m` means require message.
