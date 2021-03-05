@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Coursera: HTML, CSS and Javascript for Web Developers
+## Example Source Code
+This repository contains all of the example source code used in the Coursera.org course called
+[HTML, CSS and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers).
 
-You can use the [editor on GitHub](https://github.com/TonyZhengSojern/html_css_js/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[Enroll now! It's free!](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Frequently Asked Questions
+Please check our FAQ to see if a question you want to ask on the forums has been answered already. Here is the link to the FAQ:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Frequently Asked Questions](FAQ.md)
 
-```markdown
-Syntax highlighted code block
+## Customer Website Launched
+As part of this course we developed a *real* website for a *real* client. Below is a link to the final product. (*Note*, the site is left without speed optimization to keep it exactly as it was in the course. Site optimization wasn't part of the course).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TonyZhengSojern/html_css_js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[David Chu's China Bistro Restaurant in Baltimore, MD](http://www.davidchuschinabistro.com/)
