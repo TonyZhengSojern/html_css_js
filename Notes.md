@@ -29,3 +29,7 @@ To quit browser sync, press `ctrl + c` in the terminal.
 * attributes can only be specified on the opening tag, so you can't specify an attribute on the closing tag
 * Self-closing tag: `<p/>` <=> `<p></p>` in XML, but only use the latter in HTML5.
 
+## HTML tags 
+* In line elements: if it is nested in a block element, then on the page it will be in the same line. If it is not nested in the block element, it will be in a new line.
+* Block elements: it will always start a new line.
+
