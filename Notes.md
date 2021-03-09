@@ -1,4 +1,4 @@
-# Week 1
+# Week 1 HTML
 ## Browser-sync
 In the folder where you need to test your .html files, enter `browser-sync start --server --directory --files "*"`
 
@@ -32,4 +32,67 @@ To quit browser sync, press `ctrl + c` in the terminal.
 ## HTML tags 
 * In line elements: if it is nested in a block element, then on the page it will be in the same line. If it is not nested in the block element, it will be in a new line.
 * Block elements: it will always start a new line.
+
+# Week 2 CSS (Cascading style sheets)
+
+## CSS rule: see Lecture 12
+
+## Selector: see Lecture 13
+
+* Element selector: the selector's name is just the element name of a html tag.
+* class selector: start with a '.', plus class name. The class selector does require a little bit of a change to your HTML document in that each element that you want that class applied to has to have a attribute "class" equal to the class name.
+* id selector: The way you specify an id selector is by specifying the value of an id of an element within your HTML document, preceded by a pound sign.
+* we can group the selectors with commas when define the selectors. 
+
+## Combining selectors: See Lecture 14
+
+* `p.big{font-size: 20px;}`: Only p elements AND with class big will be 20 px.
+* Child selector: ```article > p {
+	color: blue;
+}
+``` It applies only to element p that are DIRECT CHILD of an article element.
+* descendant selector: ```article p {
+	color: blue;
+}``` It applies to element p that are direct OR indirect CHILD of an article element.
+* These does not limit to element selector.
+
+## Pseudo-Class Selectors: See Lecture 15 (`after` file)
+
+* Pseudo-class selectors address targeting only the structures that can be targeted by simple combinations of regular selectors, or targeting the ability to style based on user interaction with the page.  For example, we would want the styling of an element to change if the user hovers or moves their mouse over that element.
+
+* Syntex: ```selector:pseudo-class{
+	...
+}```. the `pseudo-class` is pre defined. 
+
+* e.g. of the pseudo-class selectors: `:link`, `:visited`, `:hover`, `:active`, `:nth-child(...)`
+
+* **Make Sure The styles are clear and readable. don't try to get fancy and show off, or it will be an maintenance nightmare.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

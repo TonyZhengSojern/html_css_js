@@ -6,25 +6,25 @@
 <style>
 /* Styles go here. */
 header li {
-  list-style: none;
+  list-style: none; /*remove the bullet points in the list*/
 }
-a:link, a:visited {
+a:link, a:visited { /*a element is a link, and it has many states: one being not visited, and the other being visited.*/
   text-decoration: none;
   background-color: green;
   border: 1px solid blue;
   color: black;
-  display: block;
-  width: 200px;
+  display: block; /*a element is both inline element and block level. specify it to be block.*/
+  width: 200px; /*the block element takes up the entire line, but I just want it to be 200 px long.*/
   text-align: center;
   margin-bottom: 1px;
 }
 
-a:hover, a:active {
+a:hover, a:active { /*active state is when the user clicks the button but hasn't yet released. */
   background-color: red;
   color: purple;
 }
 
-header li:nth-child(3) {
+header li:nth-child(3) {/*the third item of the li element in a header element*/
   font-size: 24px;
 }
 
@@ -32,9 +32,9 @@ section div:nth-child(odd) {
   background-color: gray;
 }
 
-section div:nth-child(4):hover {
+section div:nth-child(4):hover { /*pseudo selectors can be combined as well*/
   background-color: green;
-  cursor: pointer;
+  cursor: pointer; /*the finger like cursor*/
 }
 
 </style>
