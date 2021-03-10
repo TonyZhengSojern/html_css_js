@@ -4,14 +4,16 @@
 <meta charset="utf-8">
 <title>Setting Font Size</title>
 <style>
-
+body {
+	font-size: 120%; /*increase the font size defaulted by the browser by 20%*/
+}
 </style>
 </head>
 <body>
 <div>Regular text</div>
-<div>2em text
-  <div>4em text
-    <div>2em again!</div>
+<div style='font-size:2em;'>2em text <!-- em is the width of the letter 'm' in the font size that we are currently using. To make it simpler, it's just increase the current font size to 2 times the current font size, i.e. 240% of the default size of the browser. relative sizing will not have overwriting effect but instead cumulated effect. -->
+  <div style='font-size:2em;'>4em text <!-- 2 em times 2 em is 4 em -->
+    <div style='font-size:0.5em;'>2em again!</div> <!-- 4 em times 0.5 em is 2 em -->
   </div>
 </div>
 </body>

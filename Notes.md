@@ -68,11 +68,28 @@ To quit browser sync, press `ctrl + c` in the terminal.
 
 * **Make Sure The styles are clear and readable. don't try to get fancy and show off, or it will be an maintenance nightmare.**
 
+## Style Placement: Lecture 16
 
+## Conflict Resolution: Lecture 17
 
+* Concepts of Cascading: resolving conflicts of differnt styles applying to the same target's same property
+	* origin: resolving conflicts of differnt styles applying to the same target's same property. 
+		Rule: the last declaration wins. The lower rule will win.
+	* merge: when two rules apply to the same target, but defining different properties of the target.
+		Rule: the rules merge. 
+	* inheritance: 
+		Rule: every child and grandchild and so on will also apply the rules applied to the parent.
+	* specificity:
+		Rule: Most specific selector combination wins.
+		* Specificity score: treat the following sequence as digits. e.g. style, id, no class, no element -> 1100; no style, id, no class, 2 elements -> 0102 = 102. Since 1100 > 102, the first style sheet wins.
+			1. `style="..."`: 
+			2. `id`: 
+			3. Class, pseudo-class, attribute
+			4. # of Elements
 
+## Styling Texts: Lecture 18
 
-
+* [This website](http://www.w3schools.com/cssref/css_websafe_fonts.asp) gives you the commonly used font family. 
 
 
 
