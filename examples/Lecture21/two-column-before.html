@@ -5,11 +5,15 @@
 <title>Two Column Design</title>
 <style>
 
+* {
+  box-sizing: border-box;
+}
+
 div {
   background-color: #00FFFF;
 }
 p {
-  width: 50%;
+  width: 50%; /*the width will be 50% of its containing element which, in this case, is div. The div is a block level element, so it will essentially take 50% of the width of the browser. */
   border: 1px solid black;
   float: left;
 }

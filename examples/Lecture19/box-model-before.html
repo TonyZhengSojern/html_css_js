@@ -5,15 +5,27 @@
 <title>The Box Model</title>
 <style>
 
+* {
+	box-sizing:border-box; /*star selector applies the style to every element.*/
+}
+
+
 body {
+  margin:0;
+  padding:0;
   background-color: gray;
 }
 
 #box {
   background-color: blue;
+  padding: 10px 10px 10px 10px; /*top right bottom left paddings. Or you can just use 10px and it will have 10 px all 4 sides. */
+  widths: 300px; /*note that the width is only the width of the content. the actual width is width + padding + boarder. UNLESS - You specify box-sizing to be border box as below: */
+  box_sizing:border-box; /*always stay with boarder box! This property is not inherented. You need to use the star selector. */
+  overflow: hidden; /*or scroll/auto/visible*/
 }
 #content {
   background-color: #90EE90; /*green*/
+  overflow: ;
 }
 
 h1 {

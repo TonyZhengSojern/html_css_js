@@ -93,10 +93,33 @@ To quit browser sync, press `ctrl + c` in the terminal.
 
 
 
+## The Box Model: Lecture 19
 
+* The horizontal margins will add to each other (cumulative); the vertical margins will take the biggest margin of the two adjoined boxes (Collapse).  
 
+* We talked about the fact that you should prefer to use box-sizing border-box. And that will keep things consistent for you as you change the border and the padding properties. 
 
+* We spoke about the universal selector, the star selector, and how it can affect every single element in the entire HTML page. 
 
+* And we also spoke about cumulative and collapsing margins. Remember, horizontal margins are cumulative, and for the most part, in most circumstances, the vertical ones collapse. 
+
+* We also spoke about the cases where the content overflows the size of the actual box and what do we do about it using the overflow property. 
+
+## Background: Lecture 20
+
+## Positioning Elements by Floating: Lecture 21
+
+* floating elements can produce very flexible layouts. Floats are taken out of their normal document flow, and they're positioned at the top left or right edge of the containing element.
+
+* Also, floats don't have vertical margin collapse, so previously hidden or collapsed margins will show up once you float the element. 
+
+* And remember that to resume normal document flow, use the clear property. Either clear left, clear right or clear both.
+
+## Relative and Absolute Element Positioning: Lecture 22
+
+* when you specify position to be relative, it keeps the space of the box in the original position, but move the element to a position specified using the original position as the anchor. e.g. `top: 50px; left: 50px;` will move the element from it's original position down by 50 px and right by 50 px. the element is not taken out of normal document flow.
+
+* when you specify position to be absolute, it is taken out of the normal document flow. the idea of absolute positioning is that all offsets, top, bottom, left, right, are all relative to the position of the nearest ancestor which has positioning set on it other than static. In other words, some parent, grandparent, on and on and on, ancestor has to have its positioning set other than static, and then the absolute positioning will actually start working.
 
 
 
