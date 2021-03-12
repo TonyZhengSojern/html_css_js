@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- this meta tag tells the small mobile device not to zoom out our website. -->
 <title>Responsive Layout</title>
 <style>
 
@@ -31,12 +32,12 @@ p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { /*12 column layout*/
+    float: left; /*float based layout*/
     border: 1px solid green;
   }
   .col-lg-1 {
-    width: 8.33%;
+    width: 8.33%; /*each column takes up 8.33% of the width of the screen.*/
   }
   .col-lg-2 {
     width: 16.66%;
@@ -122,8 +123,8 @@ p {
 <body>
 <h1>Responsive Layout</h1>
 
-<div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+<div class="row"> <!-- If it's not large or medium device, their will be 8 columns because there are 8 divs below -->
+  <div class="col-lg-3 col-md-6"><p>Item 1</p></div> <!-- if it's a large device, only col-lg-3 will apply because there's no col-md-6. The items will be floating until the floating items takes up the space of the webpage. since in col-lg-3 we define each item to be 25% the width of the webpage, 4 items will be put into the webpage. -->
   <div class="col-lg-3 col-md-6"><p>Item 2 Wow this is cool</p></div>
   <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
   <div class="col-lg-3 col-md-6"><p>Item 4</p></div>

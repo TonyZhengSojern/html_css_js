@@ -25,11 +25,32 @@ p {
   height: 50px;
 }
 
-/********** Large devices only **********/
+/********** Large devices only **********/ /*at least 1200px wide*/
+@media (min-width: 1200px) {
+	#p1 {
+		width: 80%;
+	}
+	#p2 {
+		width: 150px;
+		heigth: 150px;
+	}
+}
 
 
 
-/********** Medium devices only **********/
+/********** Medium devices only **********/ /*992px - 1199px wide*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#p1 {
+		width: 50%;
+	}
+	#p2 {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+
+
 
 
 </style>

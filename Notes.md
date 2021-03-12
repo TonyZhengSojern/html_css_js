@@ -122,6 +122,81 @@ To quit browser sync, press `ctrl + c` in the terminal.
 * when you specify position to be absolute, it is taken out of the normal document flow. the idea of absolute positioning is that all offsets, top, bottom, left, right, are all relative to the position of the nearest ancestor which has positioning set on it other than static. In other words, some parent, grandparent, on and on and on, ancestor has to have its positioning set other than static, and then the absolute positioning will actually start working.
 
 
+## Media Queries: Lecture 23
+
+* media queries starts with `@media (some_media_feature_to_determine_true_or_false)`. If true, the styles will apply. the most common media feature is `min-width` and `max_widh`
+* And & OR: `(min-width: 768px) and (max-width: 800px)` OR `(min-width: 768px) , (max-width: 800px)`
+* boundaries are all inclusive. so make sure the boundries of two media queries do not overlap with each other.
+
+
+## Responsive Design: Lecture 24
+
+* responsive design definition: a site that's designed to adapt its layout to the viewing environment by using fluid, proportion-based grids, flexible images, and CSS3 media queries. And by proportion-based grids, what we mean is or hinting to Is that the width of these grids or these columns as we'll see in a moment should be specified using a percentage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
