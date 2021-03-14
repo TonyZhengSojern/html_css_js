@@ -134,8 +134,16 @@ To quit browser sync, press `ctrl + c` in the terminal.
 * responsive design definition: a site that's designed to adapt its layout to the viewing environment by using fluid, proportion-based grids, flexible images, and CSS3 media queries. And by proportion-based grids, what we mean is or hinting to Is that the width of these grids or these columns as we'll see in a moment should be specified using a percentage.
 
 
+## Twitter Bootstrap: Lecture 25
+
+* [Bootstrap Website](getbootstrap.com/getting-started/)
+* [Jquery](jquery.com)
 
 
+## Bootstrap Grid System: Lecture 26
+
+* Boostrap Grid System must be inside a container class or container-fluid class
+* Then we should put columns into a class = 'row'
 
 
 
