@@ -146,13 +146,37 @@ To quit browser sync, press `ctrl + c` in the terminal.
 * Then we should put columns into a class = 'row'
 
 
+# Week 3
+
+## Visit with the client
+* Most clients have NO IDEA what they want. It's your job to ask questions to figure it out
+	* Bring examples of similar businesses to start the conversation
+* Less is more.
+	* Encourage your client not to cram information on the site
+* Find a way for the client to INVEST in the project.
+	* Have them commit to provide information
+* Have client designate ONE PERSON responsible for decisions
+* Limit number of revisions UPFRONT
+	* If it's a paying job, limit number of FREE revisions
+* Google for 'web development client questionnaire' to understand what questions to ask the client
+* Involve others if needed - e.g. a graphic design, photography, etc.
+* Get an idea of what the client has right now
 
 
+## Design overview: Lecture 28 & 29
+
+* Put together some mockup first [balsamiq](balsamiq.com)
+* import a font from google font:
+	1. Go to google fonts and search for the font you want 
+	2. click quick use
+	3. copy the code of `Add this code to your website` and paste it in your html file
+	4. copy the font-family css code and put it in your css file
 
 
-
-
-
+## Lecture 30, 31, 32, 33: Coding the Navigation Bar of the Site
+* refer to [bootstrap documentations](getbootstrap.com) often to understand the pre-defined classes.
+* refer to [the glyphicons page](getbootstrap.com/components/#glyphicons) to get the glyphs (i.e. symbols)
+* Use Chrome's inspect to find where a style is defined. 
 
 
 
