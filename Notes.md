@@ -178,7 +178,7 @@ To quit browser sync, press `ctrl + c` in the terminal.
 * refer to [the glyphicons page](getbootstrap.com/components/#glyphicons) to get the glyphs (i.e. symbols)
 * Use Chrome's inspect to find where a style is defined. 
 
-
+## Lecture 34
 
 
 
