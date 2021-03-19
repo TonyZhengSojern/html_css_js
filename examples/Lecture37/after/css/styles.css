@@ -10,6 +10,8 @@ body {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #logo-img {
@@ -21,6 +23,7 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -28,10 +31,10 @@ body {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  text-align: 
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -80,6 +83,11 @@ body {
   clear: both;
   margin-top: -30px;
 }
+
+#collapsable-nav {
+  padding-bottom: 10px;
+}
+
 /* END HEADER */
 
 /* FOOTER */
