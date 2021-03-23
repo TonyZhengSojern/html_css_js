@@ -178,7 +178,39 @@ To quit browser sync, press `ctrl + c` in the terminal.
 * refer to [the glyphicons page](getbootstrap.com/components/#glyphicons) to get the glyphs (i.e. symbols)
 * Use Chrome's inspect to find where a style is defined. 
 
-## Lecture 34
+
+# Week 4 Javascript
+
+## Lecture 40 - Environment for JS
+
+* Command + option + i: call the chrome developer tools. Console is where the javascript will run. When you start the browser sync and undock the console, you can run your javascript in sublime.
+
+* Where to place javascript code? 
+	* You can have a `script` tag and write javascript within it.: `<script> console.log(x) </script>`
+	* You can use an external file: `<script src="js/script.js"></script>`
+
+* `console.log(x)`: it allows the console to execute whatever is in the log().
+
+
+## Lecture 41 - JS basics
+
+* function: `var a = function () {}` OR `function a () {}`. Invokes the function: `a();`
+
+* Scope 
+	* Global
+	* Function (aka lexical). Functions signifies a new scope. Functions and variables defined here are available only within this function.
+
+* Scope chain
+	* Everything is executed in an Execution Context
+	* Function invocation creates a new Execution Context
+	* Each Execution Context has 
+		* Its own Variable Environment
+		* Special 'this' object
+		* Reference to its Outer Environment
+	* Global scope does not have an Outer Environment
+	* Referenced (not defined) variable will be searched for in its current scope first, then its outer scope, then its outer scopes' outer scope.
+
+ 
 
 
 
