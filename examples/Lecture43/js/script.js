@@ -24,7 +24,7 @@ if (x == y) {
   console.log("x=4 is equal to y=4");
 }
 
-x = "4";
+x = "4"; /*Type Coercion: when doing comparision, JS first convert the type into the same type, then compare.*/
 if (x == y) {
   console.log("x='4' is equal to y=4");
 }
@@ -48,7 +48,7 @@ else {
 
 
 // ***** If statement (all false)
-if ( false || null || 
+if ( false || null || /* all of these things will be considered false */
      undefined || "" || 0 || NaN) {
   console.log("This line won't ever execute");
 }
@@ -60,6 +60,7 @@ else {
 if (true && "hello" && 1 && -1 && "false") {
   console.log("All true");
 }
+
 
 
 

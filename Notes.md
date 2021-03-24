@@ -211,10 +211,21 @@ To quit browser sync, press `ctrl + c` in the terminal.
 	* Referenced (not defined) variable will be searched for in its current scope first, then its outer scope, then its outer scopes' outer scope.
 
  
+## Lecture 43 - JS Structs 
+
+* In the console, you can type in Boolean(something), and it will return whether 'something' is true or false in JS.
+
+* The curly braces must be in the same line of the function/statement. if it's on a separate line, then JS will consider the statement ended.
+
+* When you do a for loop, there are 3 parts that you should put in: `for (var i = 0; i < 10; i++) {...}`. If `i` was defined before (e.g. on a previous for loop), you must not use `var`. Instead, just type `for (i = 0; i < 10; i++) {...}`
 
 
+## Lecture 44 - Handling Default value
 
-
+* `function myFunc(a) {...}` set default value of a by 
+	```function myFunc(a} {
+		a = a || 'the default value'; }
+	```
 
 
 
