@@ -1,9 +1,9 @@
 // Object literals and "this"
-var literalCircle = {
+var literalCircle = { // created a new Object(). it's the same thing as new key word in function constructor
   radius: 10,
 
   getArea: function () {
-    var self = this;
+    var self = this; 
     console.log(this);
 
     var increaseRadius = function () {

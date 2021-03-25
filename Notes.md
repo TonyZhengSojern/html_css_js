@@ -227,8 +227,19 @@ To quit browser sync, press `ctrl + c` in the terminal.
 		a = a || 'the default value'; }
 	```
 
+## Lecture 46 - Pass by value or reference
 
+* In JS, primitives are passed by value, **OBJECTS ARE PASSED BY REFERENCE**
 
+## Lecture 48 - Function constructor 
+
+* The convention of creating a function constructor is that the function constructor name should be first-letter capitalized.
+
+* 'this' was pointing to the global object. When we say 'new', this is pointing instead to the object that 'this' is created, which in this case, is Circle. 
+
+* 'this' was pointing to the global object. When we create an object literal and put 'this' into it, 'this' is pointing instead to the object that 'this' is created, which in this case, is literalCircle. 
+
+* When you have a function inside of a function that is inside of an Object literal, the 'this' variable will refer to the global object. To get around it, define a variable and set it equal to this, and use that variable instead.
 
 
 

@@ -1,7 +1,7 @@
 // Object creation
 var company = new Object();
 company.name = "Facebook";
-company.ceo = new Object();
+company.ceo = new Object(); /*you need to create new object first. But you don't need to create the property key with separate declare.*/
 company.ceo.firstName = "Mark";
 company.ceo.favColor = "blue";
 
