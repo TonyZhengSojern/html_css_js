@@ -242,6 +242,9 @@ To quit browser sync, press `ctrl + c` in the terminal.
 * When you have a function inside of a function that is inside of an Object literal, the 'this' variable will refer to the global object. To get around it, define a variable and set it equal to this, and use that variable instead.
 
 
+## Array
+
+* Array is just an object in JS. It's similar to a python list, but kinda different in that if you add a property to the array, it will be considered as an item in the array when looping through it.
 
 
 
