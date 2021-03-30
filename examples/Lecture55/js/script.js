@@ -1,4 +1,4 @@
-// Event handling
+// Event handling 
 document.addEventListener("DOMContentLoaded",
   function (event) {
     

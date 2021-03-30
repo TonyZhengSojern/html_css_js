@@ -248,9 +248,28 @@ To quit browser sync, press `ctrl + c` in the terminal.
 
 
 
+# Week 5
 
+## DMO Manipulation (Lecture 53)
 
+* `window.document` contanins the entire html page.
 
+* `document.getElementById()`: get the element by it's id
+
+* `document.textContent`: the output content after the tag (distinguish with `.value` which is only for input element). e.g. `document.getElementById("content").textContent = "hi"`: make the text after the tag with id "content" to be "hi".
+
+* `document.innerHTML`: similar to textContent. The difference is just that it will interpret the html tag strings as tag, not string.
+
+* `document.querySelector()`: takes some selector similar to CSS. e.g. `document.querySelector("#title")`, `document.querySelector("h1")`
+
+## Event Handler (Lecture 54 & 55)
+
+* You can trigger a js function by using `onxxx` (e.g. `onblur` `onclick`) with a tag.
+
+* `.addEventListener('action', function)`: when this method is called, it will execute the function on the action specified. e.g. `document.querySelector("button").addEventListener("click", sayHello);`: When the buttonis clicked, execute sayHello function.
+	* This is equal to `document.querySelector("button").onclick = sayHello;`
+
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Event): This tells you all the events that can happen
 
 
 

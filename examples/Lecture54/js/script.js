@@ -1,5 +1,5 @@
 // Event handling
-document.addEventListener("DOMContentLoaded",
+document.addEventListener("DOMContentLoaded", // The function will be execcuted when the contents of the page is loaded.
   function (event) {
     
     function sayHello (event) {
