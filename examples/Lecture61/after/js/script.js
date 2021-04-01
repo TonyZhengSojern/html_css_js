@@ -17,7 +17,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   $("#navbarToggle").click(function (event) {
     $(event.target).focus();
   });
-});
+}); 
 
 (function (global) {
 
@@ -47,7 +47,7 @@ var showLoading = function (selector) {
 var insertProperty = function (string, propName, propValue) {
   var propToReplace = "{{" + propName + "}}";
   string = string
-    .replace(new RegExp(propToReplace, "g"), propValue);
+    .replace(new RegExp(propToReplace, "g" /* g means that this regExp replace will happen not just once but every time applicable */), propValue);
   return string;
 }
 

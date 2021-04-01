@@ -289,10 +289,26 @@ To quit browser sync, press `ctrl + c` in the terminal.
 	* Convert from JSON to an object: `var obj = JSON.parse(jsonString);`
 	* Convert from object to JSON: `var str = JSON.stringify(obj);`
 
+## Use JS in the restaurant website 
 
+* [website for loading icon](www.ajaxload.info)
 
+* ```
+var insertHtml = function (selector, html) {
+  var targetElem = document.querySelector(selector);
+  targetElem.innerHTML = html;
+};
+``` Convenience function for inserting innerHTML for 'select'
 
+* ```
+var showLoading = function (selector) {
+  var html = "<div class='text-center'>";
+  html += "<img src='images/ajax-loader.gif'></div>";
+  insertHtml(selector, html);
+};
+``` Show loading icon inside element identified by 'selector'.
 
+* When you have a json file opened in chrome, you can use the developer tools - network - the json file - preview feature to read it easily.
 
 
 
