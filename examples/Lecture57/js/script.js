@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded",
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.txt", 
-            function (request) {
+            function (request) { // This is the responseHandler function
               var name = request.responseText;
 
               document.querySelector("#content")
-                .innerHTML = "<h2>Hello " + name + "!</h2>";
+                .innerHTML = "<h2>Hello " + name + "!</h2>"; /*The response must be in the responseHandler function because of the asynchronuos property.*/
             });
 
         

@@ -1,4 +1,4 @@
-(function (global) {
+(function (global) { // An IIFE
 
 // Set up a namespace for our utility
 var ajaxUtils = {};
@@ -28,8 +28,8 @@ ajaxUtils.sendGetRequest =
       function() { 
         handleResponse(request, responseHandler); 
       };
-    request.open("GET", requestUrl, true);
-    request.send(null); // for POST only
+    request.open("GET"/*method of the request*/, requestUrl/*in the get method, request is in the url.*/, true /*true for asynchronous, i.e. the browser will not freeze and wait for the response of the request. */);
+    request.send(null); // for POST only /*The part that shows null is the body of the request when you use "POST" method. */
   };
 
 

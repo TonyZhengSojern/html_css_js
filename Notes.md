@@ -271,6 +271,25 @@ To quit browser sync, press `ctrl + c` in the terminal.
 
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Event): This tells you all the events that can happen
 
+## HTTP Basics
+
+* HTTP Methods 
+	* `GET`: Retrieves the resource. Data is passed to server as part of the URI.
+	* `POST`: Sends data to server in order to be processed. Data is sent in the message body.
+
+## Ajax Basics
+
+* `onreadystatechange`: the different stages in the network communication between the browser and the server, and we're going to see that in a minute. 
+
+* The `responseHandler` is the call back function.
+
+## JSON
+
+* The property name must be in double quotes. The string value must be in double quotes. JSON is not a JS Object Literal; it's just a string. You need to convert b/w JSON and JS object. 
+	* Convert from JSON to an object: `var obj = JSON.parse(jsonString);`
+	* Convert from object to JSON: `var str = JSON.stringify(obj);`
+
+
 
 
 
